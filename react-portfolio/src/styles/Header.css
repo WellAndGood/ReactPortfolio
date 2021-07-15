@@ -1,0 +1,70 @@
+
+.lead-title {
+    font-family: 'Bree Serif', serif;
+    color: black;
+    padding: 10px;
+    margin-left: 15px;
+    font-size: 2rem;
+}
+
+#daniel-cover {
+    position: relative;
+    height: 700px;
+    left: 50%;
+    bottom: -40px;
+    filter: drop-shadow(5px, 5px, 5px #222);
+    z-index: 2;
+}
+
+#coding-cover {
+    position: relative;
+    left: 15%;
+    bottom: 200px;
+    width: 400px;
+    transform: rotate(-8deg);
+    z-index: 1;
+}
+
+#coding-profile {
+    position: relative;
+    left: 30px;
+}
+
+.intro-container {
+    padding-left: 18%;
+    position: absolute;
+    z-index: 6;
+}
+
+.intro-container p {
+    line-height: 0px;
+    margin: 45px 0px 25px;
+}
+
+.intro-container p:nth-child(1){
+    font-family: calibri;
+    font-weight: bold;
+    color: #6f6f6f;
+    font-size: 26px;
+}
+
+.intro-container p:nth-child(2) {
+    font-family: calibri;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #1a1a1a;
+    font-size: 60px;
+}
+
+.intro-container p:nth-child(3) {
+    font-family: myriad pro regular;
+    color: #403e3e;
+    font-size: 30px;
+}
+
+.intro-container p:nth-child(4) {
+    font-family: myriad pro regular;
+    color: #403e3e;
+    font-size: 30px;
+    font-style: italic;
+}

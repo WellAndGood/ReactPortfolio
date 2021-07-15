@@ -1,0 +1,64 @@
+.contact-me {
+    width: 100%;
+    min-height: 330px;
+    background-color: black;        
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-me p {
+    color: #FFFFFF;
+    font-size: 30px;
+    font-family: calibri;
+    font-weight: bold;
+    border-bottom: 2px solid #FFFFFF;
+}
+
+.contact-me button {
+    background-color: #FFFFFF;
+    outline: none;
+    border: none;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-form label {
+    color: white;
+    font-size: 1.5rem;
+    text-indent: 10px;
+    padding: 10px;
+}
+
+.contact-form-left {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.contact-form-left input {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    font-size: 1.3rem;
+    font-family: 'Assistant', sans-serif;
+    width: 20em;
+    height: 0.5em;
+}
+
+.contact-form-right {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.contact-form-right textarea {
+    font-size: 1.3rem;
+    font-family: 'Assistant', sans-serif;
+    width: 20em;
+    height: 14em;
+}

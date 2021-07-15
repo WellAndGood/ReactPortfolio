@@ -1,0 +1,43 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;400;600&family=Bree+Serif&display=swap');
+
+section {
+    width: 100%;
+    min-height: 75vh;
+    max-height: 95vh;
+    background-image: url("../images/linebg1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: white;
+    margin-top: 20px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.25);
+    padding: 0px 5%;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li a {
+    margin: 30px;
+    font-family: 'Assistant', sans-serif;
+    color: #505050;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+nav ul li a:hover {
+    color: #ffbcfc;
+}
+
+.active {
+    font-weight: bold;
+    color: #2d2a2a;
+}

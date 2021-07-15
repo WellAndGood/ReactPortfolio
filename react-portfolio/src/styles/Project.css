@@ -1,0 +1,153 @@
+.portfolio {
+    min-height: 600px;
+    background-color: #FFFFFF;
+    padding: 0.5% 10% 0px 10%;
+}
+
+.portfolio-text {
+    width: 70%;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+.portfolio-text p:nth-child(1){
+    font-family: calibri;
+    font-weight: bold;
+    color: #3e3d3d;
+    font-size: 15px;
+    line-height: 0px;
+}
+.portfolio-text p:nth-child(2){
+    font-family: calibri;
+    font-weight: bold;
+    color: #3e3e3d;
+    font-size: 15px;
+    line-height: 5px;
+}
+.portfolio-text p:nth-child(3){
+    font-family: calibri;
+    color: #7e7d7d;
+}
+
+.portfolio-btn {
+    border: 2px solid #373636;
+    color: #373636;
+}
+
+.skills-list {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+}
+
+.skills-list li {
+    font-family: 'Assistant', sans-serif;
+    font-size: 1.2rem;
+}
+
+.box {
+    width: 355px;
+    min-height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.25);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.box:hover {
+    transform: scale(1.03);
+    transition: 200ms;
+    opacity: 0.8;
+}
+
+.box-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.image-box {
+    height: 200px;
+}
+
+
+
+#image-box-1 {
+    background-image: url("../images/birdwatcherquack.jpg");
+    background-size: 100%;
+}
+
+#image-box-2 {
+    background-image: url("../images/instrument_search.png");
+    background-size: 100%;
+}
+
+#image-box-3 {
+    background-image: url("../images/screenshotPassword.jpg");
+    background-size: 100%;
+}
+
+#image-box-4 {
+    background-image: url("../images/screenshotWeather.jpg");
+    background-size: 100%;
+}
+
+#image-box-5 {
+    background-image: url("../images/SQLEmployeeTrack.jpg");
+    background-size: 100%;
+}
+
+#image-box-6 {
+    background-image: url("../images/teambuildernode.jpg");
+    background-size: 100%;
+}
+
+.box a {
+    text-align: justify;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    color: rgb(194, 5, 5);
+}
+
+.box a:hover {
+    color:rgb(75, 0, 0)
+}
+
+.box span {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #000000;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    font-family: calibri;
+    font-weight: bold;
+    border-radius: 2px solid black;
+}
+
+.box p:nth-child(2) {
+    color: #000000;
+    font-family: calibri;
+    font-size: 23px;
+    line-height: 0px;
+}
+
+.inner-box {
+    background-color: rgba(255, 255, 255, 0.65);
+    width: 90%;
+    border-radius: 5px;
+    margin: 10px auto 10px auto;
+}
+
+.details {
+    font-family: 'Assistant', sans-serif;
+    font-size: 1rem;
+}
