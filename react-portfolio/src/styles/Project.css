@@ -75,35 +75,33 @@
     height: 200px;
 }
 
-
-
 #image-box-1 {
-    background-image: url("../images/birdwatcherquack.jpg");
+    background-image: url("../assets/images/birdwatcherquack.jpg");
     background-size: 100%;
 }
 
 #image-box-2 {
-    background-image: url("../images/instrument_search.png");
+    background-image: url("../assets/images/instrument_search.png");
     background-size: 100%;
 }
 
 #image-box-3 {
-    background-image: url("../images/screenshotPassword.jpg");
+    background-image: url("../assets/images/screenshotPassword.jpg");
     background-size: 100%;
 }
 
 #image-box-4 {
-    background-image: url("../images/screenshotWeather.jpg");
+    background-image: url("../assets/images/ScreenshotWeather.jpg");
     background-size: 100%;
 }
 
 #image-box-5 {
-    background-image: url("../images/SQLEmployeeTrack.jpg");
+    background-image: url("../assets/images/SQLEmployeeTrack.jpg");
     background-size: 100%;
 }
 
 #image-box-6 {
-    background-image: url("../images/teambuildernode.jpg");
+    background-image: url("../assets/images/teambuildernode.jpg");
     background-size: 100%;
 }
 

@@ -1,9 +1,9 @@
 import React from 'react';
 import '../styles/About.css';
 import '../App.css';
-import danResume from '/2021.06.Daniel.Pisani.Web.CV2.pdf'
 
 function About() {
+    const danResume = "#"
     return (
         <div className="about-container">
         {/* <!-- About text --> */}
@@ -15,7 +15,7 @@ function About() {
                 <p>In addition to this, I'm a practicing Registered Dietitian, allowing me to bring years of clinical
                     experience in medical environments to my coding projects.</p>
                 <a href="#portfolio"><button className="portfolio-btn">Portfolio</button></a>
-                <a href="2021.06.Daniel.Pisani.Web.CV2.pdf" download 
+                <a href="https://drive.google.com/file/d/1137nIzneFL4UsF02Z1Z01PfVstAuK7yi/view?usp=sharing" download 
                 target="_blank" 
                 rel="nonreferrer"><button className="down-cv">Download CV</button></a>
             </div>

@@ -26,7 +26,10 @@ const Project = () => {
             </div>
             <h2>Recent Projects</h2>
             <div className="box-container">
-                <div data-aos="fade-right" className="box" id="box-1" data-tilt data-tilt-max="5">
+                <div 
+                className="box" id="box-1" 
+                // data-aos="fade-right" data-tilt data-tilt-max="5"
+                >
                     <div className="image-box" id="image-box-1">
                     </div>
                     <div className="inner-box">
@@ -36,12 +39,16 @@ const Project = () => {
                         <a href="https://github.com/WellAndGood/BirdWatcher-1" target="_blank">
                             Github
                         </a>
+                        <br/>
                         <a href="http://birdwatcherquack.herokuapp.com/" target="_blank">
                             Deployed Application
                         </a>
                     </div>
                 </div>
-                <div data-aos="fade-left" className="box" id="box-2" data-tilt data-tilt-max="5">
+                <div 
+                className="box" id="box-2"
+                // data-aos="fade-left" data-tilt data-tilt-max="5"
+                >
                     <div className="image-box" id="image-box-2">
                     </div>
                     <div className="inner-box">
@@ -51,12 +58,16 @@ const Project = () => {
                         <a href="https://github.com/WellAndGood/BCS-Project-1" target="_blank">
                             Github
                         </a>
+                        <br/>
                         <a href="https://wellandgood.github.io/BCS-Project-1/" target="_blank">
                             Deployed Application
                         </a>
                     </div>
                 </div>
-                <div data-aos="fade-right" className="box" id="box-3" data-tilt data-tilt-max="5">
+                <div 
+                className="box" id="box-3" 
+                // data-aos="fade-right" data-tilt data-tilt-max="5"
+                >
                     <div className="image-box" id="image-box-3">
                     </div>
                     <div className="inner-box">
@@ -66,12 +77,16 @@ const Project = () => {
                         <a href="https://github.com/WellAndGood/JavascriptPasswordGenerator" target="_blank">
                             Github
                         </a>
+                        <br/>
                         <a href="https://wellandgood.github.io/JavascriptPasswordGenerator/" target="_blank">
                             Deployed Application
                         </a>
                     </div>
                 </div>
-                <div data-aos="fade-left" className="box" id="box-4" data-tilt data-tilt-max="5">
+                <div 
+                className="box" id="box-4" 
+                // data-aos="fade-left" data-tilt data-tilt-max="5"
+                >
                     <div className="image-box" id="image-box-4">
                     </div>
                     <div className="inner-box">
@@ -81,12 +96,16 @@ const Project = () => {
                         <a href="https://github.com/WellAndGood/DanielsWeatherNetwork" target="_blank">
                             Github
                         </a>
+                        <br/>
                         <a href="https://wellandgood.github.io/DanielsWeatherNetwork/" target="_blank">
                             Deployed Application
                         </a>
                     </div>
                 </div>
-                <div data-aos="fade-right" className="box" id="box-5" data-tilt data-tilt-max="5">
+                <div 
+                className="box" id="box-5" 
+                // data-aos="fade-right" data-tilt data-tilt-max="5"
+                >
                     <div className="image-box" id="image-box-5" >
                     </div>
                     <div className="inner-box">
@@ -98,20 +117,23 @@ const Project = () => {
                         </a>
                     </div>
                 </div>
-                                <div data-aos="fade-left" className="box" id="box-6" data-tilt data-tilt-max="5">
-                                    <div className="image-box" id="image-box-6">
-                                    </div>
-                                    <div className="inner-box">
-                                        <span>6</span>
-                                        <h3 className="heading">Front-End Team-Builder</h3>
-                                        <p className="details">With Node.js; A Node-powered command line application, which generates an HTML webpage.</p>
-                                        <a href="https://github.com/WellAndGood/Team-Profile-Generator" target="_blank">
-                                            Github
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                <div 
+                // data-aos="fade-left" data-tilt data-tilt-max="5"
+                className="box" id="box-6" 
+                >
+                    <div className="image-box" id="image-box-6">
+                    </div>
+                    <div className="inner-box">
+                        <span>6</span>
+                        <h3 className="heading">Front-End Team-Builder</h3>
+                        <p className="details">With Node.js; A Node-powered command line application, which generates an HTML webpage.</p>
+                        <a href="https://github.com/WellAndGood/Team-Profile-Generator" target="_blank">
+                            Github
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
                         )
 }
 

@@ -5,7 +5,7 @@ section {
     width: 100%;
     min-height: 75vh;
     max-height: 95vh;
-    background-image: url("../images/linebg1.jpg");
+    background-image: url("../assets/images/linebg1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
