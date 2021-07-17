@@ -11,7 +11,7 @@ function App() {
   return (
     <div>
       <Header>
-        <Navigation/>
+        {/* <Navigation/> */}
       </Header>
       <About/>
       <Project/>

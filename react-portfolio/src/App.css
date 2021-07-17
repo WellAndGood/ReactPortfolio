@@ -73,7 +73,16 @@ button:active {
     transform: scale(1.03);
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (width: 885px) {
+
+    section {
+        max-height: 95vh;
+    }
+
+}
+
+@media only screen and (max-width: 885px) {
+
     nav {
         display: flex;
         flex-direction: column;
@@ -84,16 +93,30 @@ button:active {
         flex-direction: column;
     } 
 
-    .contact-form {
-        display: flex;
-        flex-direction: column;
+    .about-container {
+        margin-top: 10% !important;
     }
+
 
     .cover-images {
         display: none;
     }
 
-    section {
-        max-height: 95vh
+    .text-fullstack {
+        font-family: myriad pro regular;
+        color: #403e3e;
+        font-size: 20px;
     }
+    
+    .text-dietitian {
+        font-family: myriad pro regular;
+        color: #403e3e;
+        font-size: 20px;
+        font-style: italic;
+    }
+
+    section {
+        background-image: none !important;
+    }
+
 }

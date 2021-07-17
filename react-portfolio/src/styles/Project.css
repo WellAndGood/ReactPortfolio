@@ -5,9 +5,13 @@
 }
 
 .portfolio-text {
-    width: 70%;
-    margin: 10px auto;
+    width: 90%;
+    margin: 10px auto 8% auto;
     padding: 10px;
+}
+
+.portfolio-text h2 {
+    padding-bottom: 5%;
 }
 
 .portfolio-text p:nth-child(1){
@@ -59,7 +63,7 @@
 }
 
 .box:hover {
-    transform: scale(1.03);
+    transform: scale(1.01);
     transition: 200ms;
     opacity: 0.8;
 }

@@ -10,8 +10,7 @@
 #daniel-cover {
     position: relative;
     height: 700px;
-    left: 50%;
-    bottom: -40px;
+    left: 45%;
     filter: drop-shadow(5px, 5px, 5px #222);
     z-index: 2;
 }
@@ -31,7 +30,8 @@
 }
 
 .intro-container {
-    padding-left: 18%;
+    padding-left: 17%;
+    width: 80%;
     position: absolute;
     z-index: 6;
 }
@@ -56,15 +56,15 @@
     font-size: 60px;
 }
 
-.intro-container p:nth-child(3) {
+.text-fullstack {
     font-family: myriad pro regular;
     color: #403e3e;
-    font-size: 30px;
+    font-size: 26px;
 }
 
-.intro-container p:nth-child(4) {
+.text-dietitian {
     font-family: myriad pro regular;
     color: #403e3e;
-    font-size: 30px;
+    font-size: 26px;
     font-style: italic;
 }
