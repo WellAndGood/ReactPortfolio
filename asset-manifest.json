@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/ReactPortfolio/static/css/main.ad01f4e4.chunk.css",
+    "main.js": "/ReactPortfolio/static/js/main.d056eb55.chunk.js",
+    "main.js.map": "/ReactPortfolio/static/js/main.d056eb55.chunk.js.map",
+    "runtime-main.js": "/ReactPortfolio/static/js/runtime-main.41aac4ac.js",
+    "runtime-main.js.map": "/ReactPortfolio/static/js/runtime-main.41aac4ac.js.map",
+    "static/js/2.9aaf6208.chunk.js": "/ReactPortfolio/static/js/2.9aaf6208.chunk.js",
+    "static/js/2.9aaf6208.chunk.js.map": "/ReactPortfolio/static/js/2.9aaf6208.chunk.js.map",
+    "static/js/3.d1a65bdf.chunk.js": "/ReactPortfolio/static/js/3.d1a65bdf.chunk.js",
+    "static/js/3.d1a65bdf.chunk.js.map": "/ReactPortfolio/static/js/3.d1a65bdf.chunk.js.map",
+    "index.html": "/ReactPortfolio/index.html",
+    "static/css/main.ad01f4e4.chunk.css.map": "/ReactPortfolio/static/css/main.ad01f4e4.chunk.css.map",
+    "static/js/2.9aaf6208.chunk.js.LICENSE.txt": "/ReactPortfolio/static/js/2.9aaf6208.chunk.js.LICENSE.txt",
+    "static/media/Project.css": "/ReactPortfolio/static/media/teambuildernode.2cfec6eb.jpg",
+    "static/media/danielmodelphoto.e5dde07d.png": "/ReactPortfolio/static/media/danielmodelphoto.e5dde07d.png",
+    "static/media/Navigation.css": "/ReactPortfolio/static/media/linebg1.d22dd630.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.41aac4ac.js",
+    "static/js/2.9aaf6208.chunk.js",
+    "static/css/main.ad01f4e4.chunk.css",
+    "static/js/main.d056eb55.chunk.js"
+  ]
+}
