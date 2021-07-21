@@ -1,9 +1,26 @@
 import React from 'react';
 import '../styles/Contact.css';
+import emailjs from 'emailjs-com';
+
 
 function Contact() {
+
+    function sendEmail(e) {
+        e.preventDefault();
+
+        emailjs.sendForm('service_1uj3ulq', 'template_ms24n89', e.target, 'user_t1FqZ8AjB9XGvKmpGfhRS')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+      e.target.reset()
+      alert("Email sent successfully!")
+
+    }
+
     return (
-        <div className="contact-me" id="contact-me">
+        <form onSubmit={sendEmail} className="contact-me" id="contact-me">
             <p>If You Have Any Projects in Mind...</p>
             <h1>Contact Me</h1> 
             <div className="contact-form">
@@ -21,9 +38,10 @@ function Contact() {
                     <label for="form-message" required>Message</label>
                     <textarea id="form-message" name="form-message"></textarea>
                 </div>
+                
             </div>
             <button type="submit">Submit</button>
-        </div>
+        </form>
     )
 }
 
